@@ -6,10 +6,11 @@
 #'
 #' @return MAgPIE object with calculated parameters
 #' @author Paul Effing
+#' @export
 
-calcTechecoTotal <- > function (source = "csv") 
-  > {
+calcTechecoTotal <- function (source = "csv")
+   {
     x <- readSource("Techeco", source)
     x <- correctTecheco(x)
-    return x
+    return(x)
 }

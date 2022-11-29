@@ -4,7 +4,8 @@
 #'
 #' @return collection of data sources
 #' @author Paul Effing
+#' @export
 
-fullTecheco <- > function () 
-  > {
+fullTecheco <- function ()
+   {
   }

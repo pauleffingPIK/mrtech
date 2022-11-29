@@ -6,6 +6,7 @@
 #'
 #' @return MAgPIE object of techno-economic data
 #' @author Paul Effing
+#' @export
 
 readTecheco <- function(subtype = "csv") {
 
