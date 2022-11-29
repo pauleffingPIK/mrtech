@@ -1,0 +1,13 @@
+Package: mrtech
+Type: Package
+Title: Techno-economic data preprocessing
+Version: 0.1.0
+Author: RD3: Paul Effing
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This package contains the methods used to preprocess the techno-economic data for remind.
+    It takes csv-files containing the input parameters and generates files in the format required by REMIND.
+    Optionally a pdf-file containing the parameters in a presentative format is generated.
+License: 
+Depends: madrat(>= 2.5.1)
+Encoding: UTF-8
+LazyData: true
