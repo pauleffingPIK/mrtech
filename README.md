@@ -3,7 +3,7 @@
 ## Purpose and Functionality
 Techno-economic data preprocessing for REMIND
 
-##Installation
+## Installation
 For the installation the libraries "devtools" and "madrat" are required.
 "devtools" can be installed via:
 (install.packages("devtools"))
