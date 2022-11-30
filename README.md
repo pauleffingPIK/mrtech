@@ -14,7 +14,7 @@ For the installation the libraries "devtools" and "madrat" are required.
 install.packages("devtools")
 ```
 
-To download the package run the following commands:
+To download and install the package run the following commands:
 
 ```r
 library(devtools)
