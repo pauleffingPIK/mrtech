@@ -1,5 +1,7 @@
 # mrtech - madrat based REMIND Techno-economic Input Data Library
 
+R package mrtech, version 0.1.0
+
 ## Purpose and Functionality
 Techno-economic data preprocessing for REMIND
 
@@ -9,17 +11,17 @@ For the installation the libraries "devtools" and "madrat" are required.
 "devtools" can be installed via:
 
 ```r
-(install.packages("devtools"))
+install.packages("devtools")
 ```
 
-To download the package run the following commands in R:
+To download the package run the following commands:
 
 ```r
 library(devtools)
 install_github("pauleffingPIK/mrtech")
 ```
 
-Then import the "madrat" and "mrtech":
+Then import the "madrat" and "mrtech" libraries:
 
 ```r
 library(mrtech)
