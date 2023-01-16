@@ -23,10 +23,9 @@ readTecheco <- function(subtype = "csv") {
 
   # Convert units to REMIND units
   # read in mapping to REMIND
-  # mapping <- toolGetMapping("Mapping_Electrolysis.csv", type = "reportingVariables")
   mapping <- read.csv("Mapping_Electrolysis.csv")
 
-  # outer right join mapping to data
+  # Inner join mapping to data
   file <- merge(x=file, y=mapping, by.x=c("attr", "Reported.Unit"), by.y=c("Electrolysis.Report", "Unit.Input"), all=FALSE)
 
   # apply conversion factors for direct multiplication
