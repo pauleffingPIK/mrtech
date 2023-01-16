@@ -11,7 +11,7 @@
 readTecheco <- function(subtype = "csv") {
 
   # Read in data
-  file <- read.csv("Electrolysis_costs_edit.csv")
+  file <- read.csv("Electrolysis_costs.csv")
 
   # Set default year of 2030 for missing year entries
   file$Year[is.na(file$Year)] <- 2030
