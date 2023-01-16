@@ -1,4 +1,4 @@
-#' @title       fullTecheco
+#' @title       fullTECHECO
 #' @description creates collection of techno-economic dataset and packages them
 #'
 #'
@@ -6,6 +6,13 @@
 #' @author Paul Effing
 #' @export
 
-fullTecheco <- function ()
-   {
+fullTECHECO <- function (rev = 0, dev = "")
+{
+  if (rev >= 1) {
+    calcOutput("TechecoTotal",aggregate=FALSE,file="techeco.cs4")
   }
+  if (dev == "test") {
+    message("Here you could execute code for a hypothetical development version called \"test\"")
+  }
+  return(list(tag = "customizable_tag", pucTag = "tag"))
+}

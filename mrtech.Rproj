@@ -17,6 +17,6 @@ StripTrailingWhitespace: Yes
 
 BuildType: Package
 PackageUseDevtools: Yes
-PackagePath: ~/temp/mrtech
+PackagePath: ~/mrtech
 PackageInstallArgs: --no-multiarch --with-keep.source
 PackageRoxygenize: rd,collate,namespace

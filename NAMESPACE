@@ -2,5 +2,5 @@
 
 export(calcTechecoTotal)
 export(correctTecheco)
-export(fullTecheco)
+export(fullTECHECO)
 export(readTecheco)
