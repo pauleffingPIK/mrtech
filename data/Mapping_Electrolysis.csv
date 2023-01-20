@@ -1,0 +1,10 @@
+Electrolysis Report,Unit Input,Weight,Factor,Unit REMIND,REMIND,conversion remarks,comment
+CAPEX,USD/kW,1,0.95,TrEUR/Twa,elh2.inco0,,
+CAPEX,EUR/kW,1,1,TrEUR/Twa,elh2.inco0,,
+efficiency,kWh/kg(H2),1,33.3,percent,elh2.eta,DIV,"needs to be converted in code, because of division; lower calorific value"
+Fixed OPEX,EUR/kW/year,1,1,EUR/kW /year,elh2.omv,,
+OPEX,percent,1,1,percent,elh2.omf,,
+CAPEX,EUR/kW,1,1,EUR/kW,elh2.inco0,,
+Fixed OPEX,percent,1,1,percent,elh2.omv,,
+OPEX,EUR/kW/year,1,0.001,TrEUR/TWa /year,elh2.omf,,
+Energy demand,kWh/kg(H2),1,33.3,percent,elh2.eta,DIV,"needs to be converted in code, because of division; lower calorific value"

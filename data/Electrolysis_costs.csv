@@ -1,0 +1,20 @@
+﻿Electrolyser,Data Type,Component,Report Value,Report Uncertainty ,Reported Unit,Conversion factor,Used value,Used uncertainty,Used Unit,Final value,Comment,Year,Region,Reference
+Alkaline,CAPEX,full plant,950,450,USD/kW,0.95,902.5,427.5,EUR/kW,,calculated from range given in report,,,IEA Electrolyser special report
+Alkaline,CAPEX,electrolyser system,400,,EUR/kW,,,,,,for a 100 MW(el) electrolyser,,,Vartiainen et al. (2022)
+Alkaline,CAPEX,electrolyser system,140,,EUR/kW,,,,,,for a 100 MW(el) electrolyser,,,Vartiainen et al. (2022)
+Alkaline,CAPEX,full plant,444,,EUR/kW,,,,,,for a 100 MW(el) electrolyser,2030,,ISE Fraunhofer (2021)
+Alkaline,CAPEX,full plant,726,,EUR/kW,,,,,,for a 5 MW(el) electrolyser,2030,,ISE Fraunhofer (2021)
+Alkaline,CAPEX,full plant,134,,USD/kW,0.95,127.3,,EUR/kW,,"optimistic scenario, from IRENA report Green Hydrogen cost reduction",2050,,IRENA Global Hydrogen trade costs (2022)
+Alkaline,CAPEX,full plant,326,,USD/kW,0.95,309.7,,EUR/kW,,"pessimistic scenario, from IRENA report Green Hydrogen cost reduction",2050,,IRENA Global Hydrogen trade costs (2022)
+Alkaline,efficiency,,45,,kWh/kg(H2),h2 HHV: 39.4 kWh/kg,87.5,,percent,,"HHV efficiency. Optimistic scenario, from IRENA report Green Hydrogen cost reduction",2050,,IRENA Global Hydrogen trade costs (2022)
+Alkaline,efficiency,,48,,kWh/kg(H2),h2 HHV: 39.4 kWh/kg,82,,percent,,"HHV efficiency. Pessimistic scenario, from IRENA report Green Hydrogen cost reduction",2050,,IRENA Global Hydrogen trade costs (2022)
+Alkaline,OPEX,O&M,20,5,EUR/kW/year,,,,,,electrolyser annual maintenance costs,,,ISE Fraunhofer (2021)
+Alkaline,Fixed OPEX,,1,,percent,,,,,,"percent of CAPEX, value for a solar PV plant",,,IRENA Global Hydrogen trade costs (2022)
+Alkaline,Fixed OPEX,,3,,percent,,,,,,"percent of CAPEX, value for onshore wind",,,IRENA Global Hydrogen trade costs (2022)
+PEM,CAPEX,full plant,1450,350,USD/kW,0.95,1377.5,332.5,EUR/kW,1377.5,calculated from range given in report,,,IEA Electrolyser special report
+PEM,CAPEX,full plant,500,,EUR/kW,,,,,,for a 100 MW(el) electrolyser,2030,,ISE Fraunhofer (2021)
+PEM,CAPEX,full plant,730,,EUR/kW,,,,,,for a 5 MW(el) electrolyser,2030,,ISE Fraunhofer (2021)
+PEM,Energy demand,Electricity,54.2,,kWh/kg(H2),,,,,,"Based on life cycle inventory, from Ecoinvent v3.4",,,Al-Qahtani et al. (2021)
+PEM,Feedstock demand,Water,10,,kg/kg(H2),,,,,,"Based on life cycle inventory, from Ecoinvent v3.4",,,Al-Qahtani et al. (2021)
+PEM,OPEX,O&M,15,5,EUR/kW/year,,,,,,electrolyser annual maintenance costs,,,ISE Fraunhofer (2021)
+Solid Oxide,CAPEX,full plant,4200,1400,USD/kW,0.95,3990,1330,EUR/kW,,calculated from range given in report,,,IEA Electrolyser special report
